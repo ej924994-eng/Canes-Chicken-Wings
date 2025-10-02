@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canes Chicken Wings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffdf7;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    }
+    header p {
+      font-size: 1.5rem;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .fact {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .fact img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 8px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+    }
+    .fact-content {
+      flex: 1;
+      min-width: 250px;
+    }
+    .menu {
+      background-color: #fff;
+      padding: 25px;
+      margin-top: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .menu h2 {
+      text-align: center;
+      color: #e63946;
+      margin-bottom: 20px;
+    }
+    .menu table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1.1rem;
+    }
+    .menu th, .menu td {
+      border-bottom: 1px solid #ddd;
+      padding: 14px;
+    }
+    .menu th {
+      background-color: #f8d7da;
+      text-align: left;
+    }
+    .menu td.price {
+      text-align: right;
+      font-weight: bold;
+      color: #e63946;
+    }
+    .contact {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .contact h2 {
+      color: #e63946;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍗 Canes Chicken Wings 🍗</h1>
+    <p>Crispy. Juicy. Unforgettable.</p>
+  </header>
+
+  <main>
+    <!-- Facts Section -->
+    <div class="fact">
+      <img src="https://images.unsplash.com/photo-1608032177343-5c1d8c13e9f7" alt="Chicken Wings">
+      <div class="fact-content">
+        <h2>Fact 1</h2>
+        <p>Our chicken wings are hand-battered, fried golden crispy, and seasoned with our secret blend of spices.</p>
+      </div>
+    </div>
+
+    <div class="fact">
+      <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" alt="French Fries">
+      <div class="fact-content">
+        <h2>Fact 2</h2>
+        <p>We serve hot, salty crinkle-cut fries with every combo.</p>
+      </div>
+    </div>
+
+    <div class="fact">
+      <img src="https://images.unsplash.com/photo-1627308595183-4d1a56f7e852" alt="Toast and Coleslaw">
+      <div class="fact-content">
+        <h2>Fact 3</h2>
+        <p>Every meal comes with buttery Texas toast and fresh, creamy coleslaw.</p>
+      </div>
+    </div>
+
+    <!-- Menu Section -->
+    <section class="menu">
+      <h2>Our Menu</h2>
+      <table>
+        <tr>
+          <th>Meal</th>
+          <th class="price">Price</th>
+        </tr>
+        <tr>
+          <td>3-Piece Wings Box (with fries & toast)</td>
+          <td class="price">$8.99</td>
+        </tr>
+        <tr>
+          <td>5-Piece Wings Combo (with fries, toast & drink)</td>
+          <td class="price">$11.99</td>
+        </tr>
+        <tr>
+          <td>10-Piece Family Pack (with 2 sides & toast)</td>
+          <td class="price">$19.99</td>
+        </tr>
+        <tr>
+          <td>20-Piece Party Platter</td>
+          <td class="price">$34.99</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p><strong>📍 Address:</strong> 123 Chicken Wing Lane, Your City, State</p>
+      <p><strong>📞 Phone:</strong> (123) 456-7890</p>
+      <p><strong>🕒 Hours:</strong> Mon–Sun: 10:00 AM – 10:00 PM</p>
+    </section>
+  </main>
+</body>
+</html>
